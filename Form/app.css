@@ -1,0 +1,91 @@
+body{
+    
+    font-family: 'Lato', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+}
+
+.container{
+    padding: 10%;
+    background-color: #140b42;
+
+}
+
+.container h1{
+    color: beige;
+    text-align: center;
+}
+
+.form-container{
+    background-color: #E4F1FF;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5% 5% 30% 5%;
+    border-radius: 4px;
+}
+
+.field-container {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.field-container input, select {
+    border: 2px solid beige;
+    border-radius: 2px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 2%;
+    font-family: 'Sometype Mono', monospace;
+    background-color: while;
+
+}
+
+.field-container div input{
+    width: 10%;
+    display:inline;
+}
+
+
+
+button {
+    margin: 10% 0 0 0;
+    font-family: 'Sometype Mono', monospace;
+    font-weight: bold;
+}
+
+.submit {
+    float: left;
+    background-color: #64d6a5;
+    border: none;
+    width: 100%;
+    border-radius: 2px;
+    padding: 5%;
+}
+
+.reset {
+    margin-bottom: 10%;
+    float: right;    
+    background-color: #dc526e;
+    border: none;
+    width: 100%;
+    border-radius: 2px;
+    padding: 5%;
+}
+
+.field-container input:focus, select:focus {
+    outline: 0;
+}
+
+.field-container.success input {
+    border-color: #09c372;
+}
+
+.field-container.error input {
+    border-color: #ff3760;
+}
+
+.field-container .error {
+    color: #ff3860;
+    font-size: 9px;
+}
