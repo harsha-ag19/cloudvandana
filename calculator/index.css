@@ -1,0 +1,57 @@
+.input-screen {
+    background-color: white;
+    font-size: 2vw;
+  }
+  
+  .calculator-area {
+    width: 70%;
+    height: 90%;
+    margin: 10%;
+    padding: 5% 10%;
+    background-color: #dfdddd;
+  }
+  
+  /* .history-screen {
+    background-color: #c7c7c7;
+    font-size: 1.6vw;
+    max-width: 50%;
+  } */
+  
+  .row {
+    margin: 0;
+    
+  }
+  
+  .btn {
+    font-size: xx-large;
+  }
+  
+  .autoCoreect {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  
+  .dot {
+    font-size: medium;
+    font-weight: bolder;
+  }
+  .btn-outline-primary{
+    background: gray;
+    color:white;
+  }
+  .btn-outline-secondary {
+    background: black;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    color: white;
+  }
+  
+  .btn-outline-danger {
+    background: rgb(11, 161, 111);;
+    color: white;
+  }
+
+  .outer {
+    margin: 0;
+    padding: 0;
+  }
