@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Sometype+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Customer Survey Form</h1>
+        <div class="form-container">
+            <form id="form" action="">
+                <div class="field-container">
+                    <lable for="firstname">First Name</lable>
+                    <input id="firstname" name="firstname" type="text" required>
+                    <div class="error"></div>
+                </div>
+                <div class="field-container">
+                    <lable for="lastname">Last Name</lable>
+                    <input id="lastname" name="lastname" type="text" required>
+                    <div class="error"></div>
+                </div>
+                <div class="field-container">
+                    <lable for="dob">Date of Birth</lable>
+                    <input id="dob" name="dob" type="date" required>
+                    <div class="error"></div>
+                </div>
+                <div class="field-container">
+                    <lable for="country">Country</lable>
+                    <select id="country" name="country" required>
+                        <option value="usa">United States</option>
+                        <option value="canada">Canada</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="australia">Australia</option>
+                    </select>
+                    <div class="error"></div>
+                </div>
+                <div class="field-container">
+                    <lable for="gender">Gender</lable>
+                    <div>
+                        <input id="gender" name="gender" type="radio" value="Male" required>Male</input>
+                        <input id="gender" name="gender" type="radio" value="Female" required>Female</input>
+                        <input id="gender" name="gender" type="radio" value="Female" required>Others</input>
+                    </div>
+                    <div class="error"></div>
+                </div>
+                <div class="field-container">
+                    <lable for="profession">Profession</lable>
+                    <input id="profession" name="profession" type="text" required>
+                    <div class="error"></div>
+                </div>
+                <div class="field-container">
+                    <lable for="email">Email</lable>
+                    <input id="email" name="email" type="email" required>
+                    <div class="error"></div>
+                </div>
+                <div class="field-container">
+                    <lable for="mobile">Mobile</lable>
+                    <input id="mobile" name="mobile" type="text" pattern="[0-9]{10}" required>
+                    <div class="error"></div>
+                </div>
+                <div class="button-container">
+                    <button type="submit" class="submit">Submit</button>
+                    <button type="reset" class="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
